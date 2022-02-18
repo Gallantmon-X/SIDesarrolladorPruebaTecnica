@@ -29,10 +29,19 @@ export class ProductService {
         map((products: ILibro[]) => { return products.find(p => p.idLibro === id) })
       );
   }
-  getOrderProduct(key: any, orden: boolean): Observable<ILibro | any> {
+  getOrderProduct(id: number): Observable<ILibro | any> {
     return this.getProducts()
       .pipe(
-        map((products: ILibro[]) => { return this.ordenar(products,key,orden) })
+        map((products: ILibro[]) => { return products.find(p => p.idLibro === id) })
+      );
+  }
+  deleteLibro(id: number): Observable<any>
+  {
+    console.log(id)
+    debugger
+    return this.http.delete(this.productUrl+{id})
+      .pipe(
+        tap(data => console.log('all: ',JSON.stringify(data)))
       );
   }
   ordenar(p_array_json: ILibro[], p_key: any, order: boolean) {
