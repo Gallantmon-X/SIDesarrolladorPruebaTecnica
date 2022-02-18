@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dd9ae5bf-1daf-4fa4-8883-0fe0e0dee9af": {
+      "ProjectGuid": "dd9ae5bf-1daf-4fa4-8883-0fe0e0dee9af",
+      "DisplayName": "NetCoreAPIMSQL",
+      "ColorIndex": 0
+    },
+    "ae4b0abc-d0f8-4c7d-84eb-a1c18a9f79b4": {
+      "ProjectGuid": "ae4b0abc-d0f8-4c7d-84eb-a1c18a9f79b4",
+      "DisplayName": "NetCoreAPIMYSQL.Data",
+      "ColorIndex": 1
+    },
+    "d9394800-0824-49c2-948a-b09e49ae0fd3": {
+      "ProjectGuid": "d9394800-0824-49c2-948a-b09e49ae0fd3",
+      "DisplayName": "NetCoreAPIMYSQL.Model",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

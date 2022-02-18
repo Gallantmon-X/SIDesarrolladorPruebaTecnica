@@ -1,0 +1,234 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMSQL\\NetCoreAPIMSQL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMSQL\\NetCoreAPIMSQL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMSQL\\NetCoreAPIMSQL.csproj",
+        "projectName": "NetCoreAPIMSQL",
+        "projectPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMSQL\\NetCoreAPIMSQL.csproj",
+        "packagesPath": "C:\\Users\\YUGEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMSQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\YUGEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj": {
+                "projectPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj"
+              },
+              "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQLData\\NetCoreAPIMYSQL.Data.csproj": {
+                "projectPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQLData\\NetCoreAPIMYSQL.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.Cors": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "SGAPV2LibreriaClases": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj",
+        "projectName": "NetCoreAPIMYSQL.Model",
+        "projectPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj",
+        "packagesPath": "C:\\Users\\YUGEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\YUGEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQLData\\NetCoreAPIMYSQL.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQLData\\NetCoreAPIMYSQL.Data.csproj",
+        "projectName": "NetCoreAPIMYSQL.Data",
+        "projectPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQLData\\NetCoreAPIMYSQL.Data.csproj",
+        "packagesPath": "C:\\Users\\YUGEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQLData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\YUGEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj": {
+                "projectPath": "C:\\Users\\YUGEN\\source\\repos\\NetCoreAPIMSQL\\NetCoreAPIMYSQL.Model\\NetCoreAPIMYSQL.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

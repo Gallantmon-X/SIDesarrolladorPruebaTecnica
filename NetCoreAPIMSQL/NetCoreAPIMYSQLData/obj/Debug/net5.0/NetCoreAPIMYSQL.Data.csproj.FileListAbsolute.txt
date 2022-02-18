@@ -1,0 +1,15 @@
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\bin\Debug\net5.0\NetCoreAPIMYSQL.Data.deps.json
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\bin\Debug\net5.0\NetCoreAPIMYSQL.Data.dll
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\bin\Debug\net5.0\ref\NetCoreAPIMYSQL.Data.dll
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\bin\Debug\net5.0\NetCoreAPIMYSQL.Data.pdb
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\bin\Debug\net5.0\NetCoreAPIMYSQL.Model.dll
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\bin\Debug\net5.0\NetCoreAPIMYSQL.Model.pdb
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.csproj.AssemblyReference.cache
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.AssemblyInfoInputs.cache
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.AssemblyInfo.cs
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.csproj.CoreCompileInputs.cache
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.csproj.CopyComplete
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.dll
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\ref\NetCoreAPIMYSQL.Data.dll
+C:\Users\YUGEN\source\repos\NetCoreAPIMSQL\NetCoreAPIMYSQLData\obj\Debug\net5.0\NetCoreAPIMYSQL.Data.pdb
