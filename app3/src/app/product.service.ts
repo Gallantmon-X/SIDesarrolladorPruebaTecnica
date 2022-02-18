@@ -38,12 +38,16 @@ export class ProductService {
   deleteLibro(id: number) 
   {
     console.log(this.productUrl+id)
-
     let endPoints = ""+id+""
     this.http.delete(this.productUrl+ endPoints).subscribe(data => {
       console.log(data);
     });
-    
+  }
+  postLibro(postData: Object) {
+    console.log(this.productUrl)
+    this.http.post(this.productUrl, postData).subscribe(data => {
+      console.log(data);
+    });
   }
   ordenar(p_array_json: ILibro[], p_key: any, order: boolean) {
     if (p_key == "idLibro" && order == false)

@@ -57,13 +57,14 @@
   
         <div class="list"  >
          <h3 >Agregar un libro</h3>
-         <h3 style="height:13%;"><input type="text" id="autor" name="name" required
+         <h3 style="height:13%;"><input [(ngModel)]='autor' type="text" id="autor" name="name" required
          minlength="10" maxlength="50" size="30" style="height:100%;" placeholder="Autor">  </h3> 
-        <h3 style="height:13%;"><input type="text" id="titulo" name="titulo" required
+        <h3 style="height:13%;"><input [(ngModel)]='titulo' type="text" id="titulo" name="titulo" required
          minlength="4" maxlength="50" size="30" style="height:100%;" placeholder="Titulo"> </h3>    
-         <h3 style="height:50%;"><input type="text" id="Contenido" name="Contenido" required
+         <h3 style="height:50%;"><input [(ngModel)]='contenido' type="text" id="contenido" name="contenido" required
             minlength="4" maxlength="50" size="50" style="height:100%;" placeholder="Contenido"> </h3>     
-        <h3><button class="buttonStyle">Limpiar</button> <button class="buttonStyle">Agregar </button></h3>
+        <h3><button class="buttonStyle">Limpiar</button> 
+            <button class="buttonStyle" (click)= onClick() *ngIf='autor&&titulo&&contenido'>Agregar </button></h3>
         </div>
 
   </div>
