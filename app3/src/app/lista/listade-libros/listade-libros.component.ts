@@ -15,8 +15,8 @@ export class ListadeLibrosComponent implements OnInit {
   array2: ILibro[] = [];
   constructor(private productService: ProductService) { }
   
-  onClick(button: number) {
-    this.productService.deleteLibro(button);
+  async onClick(button: number) {
+    await this.productService.deleteLibro(button);
   }
   ngOnInit(): void {
     this.productService.getProducts().subscribe(x => this.array2 = x);

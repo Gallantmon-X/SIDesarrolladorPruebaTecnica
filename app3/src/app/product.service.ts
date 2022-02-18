@@ -35,14 +35,15 @@ export class ProductService {
         map((products: ILibro[]) => { return products.find(p => p.idLibro === id) })
       );
   }
-  deleteLibro(id: number): Observable<any>
+  deleteLibro(id: number) 
   {
-    console.log(id)
-    debugger
-    return this.http.delete(this.productUrl+{id})
-      .pipe(
-        tap(data => console.log('all: ',JSON.stringify(data)))
-      );
+    console.log(this.productUrl+id)
+
+    let endPoints = ""+id+""
+    this.http.delete(this.productUrl+ endPoints).subscribe(data => {
+      console.log(data);
+    });
+    
   }
   ordenar(p_array_json: ILibro[], p_key: any, order: boolean) {
     if (p_key == "idLibro" && order == false)
